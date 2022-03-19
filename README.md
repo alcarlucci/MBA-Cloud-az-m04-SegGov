@@ -3,7 +3,20 @@ m04-SegGov
 
 ## Criação de usuários no Azure AD
 
+![image](https://user-images.githubusercontent.com/101406714/159141366-bd176b6e-d219-474a-87df-adfb6d041abd.png)
+
 ## Definição de permissões para os usuário no Azure AD
+**Grupo "Administradores" com permissão total no Azure AD "Global administrator"**
+
+![image](https://user-images.githubusercontent.com/101406714/159141693-a37cdf1b-b96b-4ce1-8e41-c8770294888a.png)
+
+![image](https://user-images.githubusercontent.com/101406714/159141945-f7c174b7-c904-4968-a811-caaaf1deb151.png)
+
+**Grupo "Admin Redes" com permissão de apenas consulta aos recursos do Azure AD "Global reader"**
+
+![image](https://user-images.githubusercontent.com/101406714/159141840-a9e76ed6-257e-43b5-8519-216f525be4bb.png)
+
+![image](https://user-images.githubusercontent.com/101406714/159141890-24002586-bb36-4b70-8c58-75866aa6987a.png)
 
 ## Habilitação de MFA para usuários
 
