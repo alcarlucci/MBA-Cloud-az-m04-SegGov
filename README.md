@@ -18,9 +18,21 @@ m04-SegGov
 
 ![image](https://user-images.githubusercontent.com/101406714/159141890-24002586-bb36-4b70-8c58-75866aa6987a.png)
 
-## Habilitação de MFA para usuários
+## Habilitação de MFA para usuários administradores
 
-## Definição de permissão total no Azure RBAC (Role Based Access Control)
+**Ativação do MFA**
+![image](https://user-images.githubusercontent.com/101406714/159166650-bef536c0-4e2b-4b21-b099-03b7d71bcdc6.png)
+
+**Ativação do Alerta de Fraude e bloqueio de conta por reporte de fraude**
+![image](https://user-images.githubusercontent.com/101406714/159171660-78b1da94-9405-4898-8cc6-3d67d71fe088.png)
+
+## IAM: definição de permissões no Azure RBAC (Role Based Access Control)
+**Atribuição de Funções (IAM - roles) a um determinado Grupo de Recursos:**
+- User1 -> "Contributor": permissão total aos recursos, exceto atribuições no Azure RBAC
+- User2 -> "Reader": apenas permissão de leitura aos recursos
+- User3 -> "Owner": permissão total aos recursos, incluindo atribuições no Azure RBAC
+
+![image](https://user-images.githubusercontent.com/101406714/159176444-f45c4a32-3a7a-4d3b-8bcf-70e25aca3f91.png)
 
 ## Definição de políticas (Azure Policy)
 **Delimitação da criação de recursos em regiões específicas**
