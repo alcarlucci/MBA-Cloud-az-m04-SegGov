@@ -1,5 +1,5 @@
 m04-SegGov
-# IGTI - MBA Cloud: criação de ambiente no Azure com usuários, permissões, VNets, VMs e segurança
+# IGTI - MBA Cloud: criação de ambiente no Azure com usuários, permissões, políticas, segurança e alguns recursos
 
 ## Criação de usuários no Azure AD
 
@@ -36,23 +36,36 @@ m04-SegGov
 
 ## Definição de políticas (Azure Policy)
 **Delimitação da criação de recursos em regiões específicas**
+- Azure Policy delimitando criação de recursos apenas nas Regiões "Brasil-South" e "East-US"
+
+![image](https://user-images.githubusercontent.com/101406714/159179692-ba8d522e-8596-4d8f-84fd-f59332a51153.png)
+
+- Negação na criação de um recurso (VNet) fora da conformidade definida na política
+
+![image](https://user-images.githubusercontent.com/101406714/159181705-cf310345-e504-41c0-8503-67d244e8f2b0.png)
 
 ## Criação de Rede Virtual (VNet) e Sub-redes (Subnet)
+![image](https://user-images.githubusercontent.com/101406714/159183885-93c6c209-9084-4962-b27e-3cc4fa1773bb.png)
+![image](https://user-images.githubusercontent.com/101406714/159184347-49c8b38a-f530-4b1c-a8d3-a06f85719214.png)
 
 ## Provisionamento de Máquinas Virtuais (VMs)
 **- Máquina 01**
   - Nome: VM-01-MODULO4
-  - Tamanho: B1MS
-  - LOCAL: Brasil-South
+  - Tamanho: B1S
+  - LOCAL: East-US
   - Sistema Operacional: Windows 10
   - Rede: SUBNET-01
 
+![image](https://user-images.githubusercontent.com/101406714/159185842-0f47141c-1101-42a1-8263-505662b59bb3.png)
+
 **- Máquina 02**
   - Nome: VM-02-MODULO4
-  - Tamanho: B1MS
-  - LOCAL: Brasil-South
+  - Tamanho: B1S
+  - LOCAL: East-US
   - Sistema Operacional: Windows 10
   - Rede: SUBNET-02
+
+![image](https://user-images.githubusercontent.com/101406714/159186117-8b255c2b-7801-4b29-b796-f1beec56b3c5.png)
 
 ## Definições de Segurança - NSG (Network Security Group)
 
