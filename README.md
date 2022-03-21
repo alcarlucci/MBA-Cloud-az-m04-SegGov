@@ -68,6 +68,16 @@ m04-SegGov
 ![image](https://user-images.githubusercontent.com/101406714/159186117-8b255c2b-7801-4b29-b796-f1beec56b3c5.png)
 
 ## Definições de Segurança - NSG (Network Security Group)
+- criação de um ASG (Application Security Group) para conexão RDP
+![image](https://user-images.githubusercontent.com/101406714/159294028-7527ba5d-e590-4e0c-a02b-e4b1caee555b.png)
+
+- configuração do ASG nas VMs
+![image](https://user-images.githubusercontent.com/101406714/159294685-8f9b168e-4fe7-4768-a420-3fd0e7437451.png)
+![image](https://user-images.githubusercontent.com/101406714/159295153-d78393c5-236f-4040-95d4-2e204fde4fbf.png)
+
+- NSG (inbound rules): regras de liberação para conexão nas VMs (com ASG) por RDP (porta 3389)
+![image](https://user-images.githubusercontent.com/101406714/159297848-0b76bacf-9f1e-4e47-bd51-5c2701e00bd3.png)
+![image](https://user-images.githubusercontent.com/101406714/159298254-b3f344d4-ad67-4c6e-ae3f-c2053dbbf6cb.png)
 
 ## Criação de Key Vault para armazenar as senhas dos servidores em Secrets
 
