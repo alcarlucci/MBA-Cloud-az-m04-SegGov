@@ -79,9 +79,22 @@ m04-SegGov
 ![image](https://user-images.githubusercontent.com/101406714/159297848-0b76bacf-9f1e-4e47-bd51-5c2701e00bd3.png)
 ![image](https://user-images.githubusercontent.com/101406714/159298254-b3f344d4-ad67-4c6e-ae3f-c2053dbbf6cb.png)
 
-## Criação de Key Vault para armazenar as senhas dos servidores em Secrets
+## Criação de Key Vault para armazenar as senhas das VMs em Secrets
+- criação de Key Vault
+![image](https://user-images.githubusercontent.com/101406714/159348394-35515caa-502a-4cb9-8c3d-630432df0cc0.png)
+
+- criação dos Secrets para armazenar as senhas de login das VMs
+![image](https://user-images.githubusercontent.com/101406714/159349041-463e0f7f-8d41-44e6-aa25-84ce2401fe72.png)
 
 ## Criptografia dos discos das VMs utilizando DES (Disk Encryption Set) no padrão RSA 3072
+- criação da chave de criptografia no padrão RSA 3072
+![image](https://user-images.githubusercontent.com/101406714/159349985-aa03a46a-6ef6-4a22-bf4c-0551c3fd1916.png)
+
+- criação de um DES (Disk Encryption Set) associando a Key criada acima
+![image](https://user-images.githubusercontent.com/101406714/159352031-71fc7509-f440-4123-afee-e550909c1af1.png)
+
+- configuração do DES para criptografia no disco da VM
+![image](https://user-images.githubusercontent.com/101406714/159352615-0ed516e4-1f9c-46f9-9bc7-784b10c9ceab.png)
 
 ##
 **André Carlucci**
